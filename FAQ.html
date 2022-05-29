@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victorian Institute of Technology</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <ul>
+    <li> <a href="index.html">Home</a></li>
+    <li> <a href="ContactUs.html">Contact us</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li> <a href="OurCampus.html">OurCampus</a></li>
+    <li> <a href="StudentExperience.html">StudentExperience</a></li>
+    <li> <a href="Ourvalues.html">OurValues</a></li>
+    <li> <a href="PrivacyPolicy.html">Privacy Policy</a></li>
+    <li> <a href="FAQ.html">FAQ</a></li>
+  </ul>
+  <!--Section 1: Navigation Bar-->
+  <div id="navbar">
+    <img src="images/logo2.png" alt="VIT – Victorian Institute of Technology" width="100" align="left">
+    <a href="FAQ.html">FAQ</a>
+    <a href="PrivacyPolicy.html">Privacy Policy</a>
+    <a href="Ourvalues.html">OurValues</a>
+    <a href="StudentExperience.html">StudentExperience</a>
+    <a href="OurCampus.html">OurCampus</a>
+    <a href="ContactUs.html">Contact us</a>
+    <a href="index.html">Home</a>
+  </div>
+  <script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+    }
+  </script>
+  <!--Section 2: Header-->
+  <div class="header">
+    <a class="logo" href="https://www.vit.edu.au">
+      <img src="images/Logo.png" alt="College Logo" class="fit-picture">
+    </a>
+    <h1>Victorian Institute of Technology</h1>
+
+  </div>
+
+
+  <!--Collapsables-->
+  <h1 class="separator_off">Frequently Asked Questions</h1>
+  <h4>We now have an FAQ list that we hope will help you answer some of the more common ones.</h4>
+
+
+  <p>Collapsible Set:</p>
+
+  <!--Open Section 1-->
+  <button type="button" class="collapsible">Life at VIT</button>
+  <div class="content">
+    <button type="button" class="collapsible">Does VIT offer summer semester?</button>
+    <div class="content">
+      <p>Yes. VIT offers limited subjects for the summer semester in November for HE students.
+        As a student, you will be advised on the subject’s availability prior to the commencement of the summer semester. To obtain more information, please email HE-SSO@vit.edu.au.</p>
+    </div>
+    <button type="button" class="collapsible">Can I pay my fees over the phone?</button>
+    <div class="content">
+      <p>No. Payments must be done in person using EFTPOS, credit card, cash, personal cheque, bank cheque, or electronic funds transfers.</p>
+    </div>
+    <button type="button" class="collapsible">Can I change to another course within VIT?</button>
+    <div class="content">
+      <p>You may request a course change by emailing
+        VETsupport@vit.edu.au if you are a VET/ELICOS student or
+        HE-SSO@vit.edu.au for HE students</p>
+    </div>
+  </div>
+
+  <!--Open Section 2-->
+  <button type="button" class="collapsible">Inquiry</button>
+  <div class="content">
+    <button type="button" class="collapsible">Does VIT provide accommodation?</button>
+    <div class="content">
+      <p>VIT can help find accommodation for students in apartments or homestay. If students require airport pickup, arrangements will be made for them to be met at the airport. VIT must be notified at least 10 working days in advance of the
+        confirmed flight details and accommodation requirements. Applicants should indicate their preference for the type of accommodation they require on the Application Form. You can also find more options at; Homestay, Village Accommodation or
+        Hostel: www.ozihouse.com Private Rental: https://www.gumtree.com.au/ Online student accommodation services: https://www.unilodge.com.au</p>
+    </div>
+    <button type="button" class="collapsible">Does VIT provide course materials?</button>
+    <div class="content">
+      <p>Yes, we provide text books, printed materials and e-books.</p>
+    </div>
+    <button type="button" class="collapsible">Can I enroll in VIT if I am under 18?</button>
+    <div class="content">
+      <p>VIT currently does not offer any course to students under the age of 18.</p>
+    </div>
+  </div>
+
+
+  <!--Open Section 3-->
+  <button type="button" class="collapsible">Prospective Students</button>
+  <div class="content">
+    <button type="button" class="collapsible">How can I reseach about my destination?</button>
+    <div class="content">
+      <p>There are different resources that you can research about your destination. Google search is one of the easiest and fastest search engines to search about any topics. You can also use the Australian Government website to check accurate visa
+        conditions and any legal topic. If you are thinking about traveling in Australia, you can take a look at Pinterest for unique places.
+        The link below can be useful: https://www.studyinaustralia.gov.au/.</p>
+    </div>
+    <button type="button" class="collapsible">What English language tests are acceptable for Australian Student Visa?</button>
+    <div class="content">
+      <p>You can satisfy the English language requirements in several ways (IELTS, TOEFL iBT, PTE (Academic), CEFR (CAE or CPE and others) to meet the VIT’s Course-specific English language requirements. Before the proposed date of commencement of
+        course enrolment, you must satisfy the requirements in one sitting or combinations of English preparation or you may be considered subject to meeting our internal assessment on a case by case basis. Please contact VIT for further admissions
+        enquiries at admissions@vit.edu.au</p>
+    </div>
+    <button type="button" class="collapsible">What is the cost of living in Australia?</button>
+    <div class="content">
+      <p>Knowing the average living costs in Australia is an important part of your financial preparation.
+        The Department of Home Affairs has financial requirements you must meet in order to receive a student visa for Australia.
+        As of October 2019, the 12-month living costs are AUD$21,041 for students or guardians, AUD$7,362 for partners coming with you, and AUD$3,152 for a child coming with you. Please refer to the link below for more information about cost of
+        living in Australia:https://www.studyinaustralia.gov.au/English/Live-in-Australia/living-costs</p>
+    </div>
+  </div>
+
+  <!--Script for collapsibles-->
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+  <div class="section-breaks"></div>
+  <!--Footer Complete-->
+  <div class="lower-footer">
+    <div class="footer-content-right">
+      <a href="https://www.facebook.com/VITAustralia"><img src="images/facebooklogo.jpg" class="icon-style" alt="Facebook"></a>
+      <a href="https://twitter.com/vitaustralia"><img src="images/twitter.png" class="icon-style" alt="Twitter"></a>
+      <a href="https://www.vit.edu.au/"><img src="images/Logo2.png" class="icon-style" alt="Home"></a>
+    </div>
+  </div>
+
+  <div class="section-breaks"></div>
+  <div class="footer-text-left">
+    <img src="images/logo2.png" alt="">
+  </div>
+  <div class="footer-content-right2">
+    <p style="color:#eb6330;">Melbourne Campus</p>
+    <p>Level 14, 123 Queen Street, Melbourne, Victoria 3000</p>
+    <p style="color:#eb6330;">Sydney Campus</p>
+    <p>Level 5, 333 Kent Street, Sydney, New South Wales 2000</p>
+    <p style="color:#eb6330;">Adelaide Campus</p>
+    <p>14, Adam St, Hindmarsh, South Australia 5007</p>
+  </div>
+  </div>
+
+
+
+
+  <!--Footer-->
+  <div class="lower-footer">
+    <div class="container">
+      <hr size="1" , noshade>
+      <span style="color:white">
+        © Copyright VIT (Victorian Institute of Technology) 2020-2021
+        RTO No: 20829 | TEQSA Provider ID: PRV 14007 | CRICOS Provider Code: 02044E | ABN: 41 085 128 525 </span>
+
+    </div>
+</body>
+
+</html>
